@@ -1,0 +1,211 @@
+    1  docker stop debian
+    2  $docker stop debian
+    3  $ docker stop debian
+    4  $ docker stop debian
+    5  stop
+    6  exit
+    7  docker stop debian
+    8  $ ls /
+    9  ls /
+   10  ls /usr
+   11  pwd
+   12  cd /root
+   13  pwd
+   14  cd usr
+   15  ls
+   16  ls/
+   17  ls /
+   18  pwd
+   19  ls
+   20  ls *
+   21  ls/root
+   22  ls /usr
+   23  ls /root
+   24  cd usr
+   25  cd /usr
+   26  pwd
+   27  cd /home
+   28  pwd
+   29  pwd /
+   30  ls /
+   31  mkdir test1
+   32  ls
+   33  pwd
+   34  cd /home
+   35  mkdir test2/test3
+   36  mkdir -p test2/test3
+   37  ls
+   38  ls test2
+   39  cd /home
+   40  touch test1/index.php
+   41  ls test1
+   42  cd /home/test1 && ls
+   43  cd /home/test1
+   44  ls
+   45  cp index.php copy.php
+   46  ls
+   47  cd /home
+   48  ls
+   49  cp -r test1 test4
+   50  ls
+   51  ls test4
+   52  ls /
+   53  ls /home
+   54  ls /home/test1
+   55  ls /home/test2
+   56  cd /home
+   57  mv test2/test3 test3
+   58  ls
+   59  cd /home
+   60  mv test4 test1_copy
+   61  ls
+   62  ls /home/test2
+   63  ls /home/test3
+   64  cd /home
+   65  ls test1
+   66  rm test1/copy.php
+   67  ls test1
+   68  cd /home
+   69  rm -r test3
+   70  ls
+   71  cd /home
+   72  rm test1_copy/*.php
+   73  ls test1_copy
+   74  cd /home
+   75  echo '# Hello World' > README.md
+   76  cat README.md
+   77  echo '# Server Lesson' > README.md
+   78  $ cat README.md
+   79  cat README.md
+   80  cd /home
+   81  edho 'Linux Practice' >> README.md
+   82  echo 'Linux Practice' >> README.md
+   83  echo '-----------------' >> README.md
+   84  cat README.md
+   85  apt update -y && apt install -y vim
+   86  cd /home
+   87  vi README.md
+   88  cat README.md
+   89  cd /root
+   90  ls
+   91  wsp
+   92  pwd
+   93  mkdir server_lesson && cd server_lesson
+   94  cd ../
+   95  ls
+   96  cd server_lesson
+   97  apt update -y && apt install -y git
+   98  git version
+   99  git init
+  100  touch first.txt
+  101  ls
+  102  mkdir linux_practice
+  103  ls
+  104  cd linux_practice/
+  105  ls
+  106  touch index.php
+  107  ls
+  108  cd server_lesson
+  109  cd /server_lesson
+  110  cd /
+  111  cd ../
+  112  pwd
+  113  cd /home
+  114  ls
+  115  cd /root
+  116  ls
+  117  cd server_lesson
+  118  ls
+  119  rm linux_practice
+  120  rm -r linux_practice
+  121  rm first.txt
+  122  ls
+  123  pws
+  124  pwd
+  125  mkdir linux_practice1
+  126  cd linux_practice1/
+  127  mkdir public
+  128  ls
+  129  cd public
+  130  touch index.php
+  131  ls
+  132  cd /root/server_lesson
+  133  touch first.txt
+  134  ls
+  135  cd linux_practice1/public
+  136  cp index.php index_bk.php
+  137  ls
+  138  cd /root/server_lesson/linux_practice1/
+  139  cp -r public tmp
+  140  ls
+  141  cd tmp
+  142  ls
+  143  cd ../
+  144  cd tmp
+  145  rm index_bk.php
+  146  ls
+  147  cd ../
+  148  cd ../
+  149  touch README.md
+  150  ls
+  151  vim README.md
+  152  vim README.md
+  153  ls
+  154  mkdir linux_practice2
+  155  ls
+  156  cd linux_practice2
+  157  mkdir documents
+  158  cd documents/
+  159  for i in {1..50}; do touch "gizumo$i.md"; done
+  160  ls
+  161  for i in {1..10}; do rm "gizumo?.md"; done
+  162  for i in {1..10}; do rm gizumo?.md; done
+  163  ls
+  164  cd ../
+  165  rm documents
+  166  rm -r documents
+  167  ls
+  168  mkdir documents
+  169  cd documents
+  170  for i in {1..9}; do touch "gizumo0$i.md"; done
+  171  ls
+  172  for i in {10..50}; do touch "gizumo$i.md"; done
+  173  ls
+  174  for i in {20..40}; do mv linux_practice2/documents/gizumo$i.md linux_practice2/trash; done
+  175  pwd
+  176  cd ../
+  177  for i in {20..40}; do mv documents/gizumo$i.md trash; done
+  178  cd trash
+  179  cd documents
+  180  ls
+  181  cd ../
+  182  pwd
+  183  cd trash
+  184  ls
+  185  trash
+  186  cd trash
+  187  ls -l trash
+  188  rm trash
+  189  ls
+  190  mkdir trash
+  191  ls
+  192  cd documents
+  193  ls
+  194  for i in {20..40}; do touch gizumo$i.md; done
+  195  ls
+  196  cd ../
+  197  for i in {20..40}; do mv documents/gizumo$i.md trash; done
+  198  cd trash
+  199  ls
+  200  cd ../
+  201  ls documents
+  202  pew
+  203  pwd
+  204  touch .gitignore
+  205  ls
+  206  vim .gitignore
+  207  pwd
+  208  ls
+  209  touch exec_command.log
+  210  history 300
+
